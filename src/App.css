@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Retro Gaming";
+  src: url("\Retro Gaming.ttf");
+}
+
+.App {
+  text-align: center;
+  border: 5px solid blue;
+  width: 50%;
+  flex-direction: column;
+  display:flex;
+  margin-left: 25%;
+  font-family: "Retro Gaming";
+  margin-top: 20px; 
+}
+
+.score-per-country {
+  border: 15px solid #7fff00;
+  margin: 10px;
+}
+
+.table-name {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 3px solid black;
+}
+
+.name {
+  text-align: right;
+    width: 50%;
+    margin: 10px;
+    font-size: 20px;
+}
+
+h1, h2 {
+  color: #56e2ff
+}
+
+.score {
+  text-align: right;
+    width: 50%;
+    margin: 10px;
+    color: #900020;
+    font-size: 20px;
+}
+
+.table {
+  border: 3px solid black;
+  margin: 10px;
+  padding-bottom: 20px;
+}
+
+button {
+  margin-right: auto;
+  margin-left: auto;
+  width: 30%;
+  background-color: black;
+  color: white;
+  border: 5px solid #56e2ff;
+  font-family: "Retro Gaming";
+}
+
+img {
+  height: 30px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.title-table {
+  display: flex;
+  justify-content: center;
+}
+
+.cup {
+  height: 40px;
+}
