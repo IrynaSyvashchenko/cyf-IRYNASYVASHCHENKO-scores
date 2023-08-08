@@ -12,6 +12,7 @@
   margin-left: 25%;
   font-family: "Retro Gaming";
   margin-top: 20px; 
+  margin-bottom: 20px;
 }
 
 .score-per-country {
@@ -64,6 +65,7 @@ img {
   height: 30px;
   margin-top: 20px;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .title-table {
@@ -73,4 +75,19 @@ img {
 
 .cup {
   height: 40px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .App {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    width: 90%;
+    margin-left: 5%;
+  }
 }
